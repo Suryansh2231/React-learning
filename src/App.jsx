@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import FirstComponent from './FirstComponent'
+import CounterComponent from './CounterComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
 
  }}>  
 <FirstComponent/>
+<CounterComponent/>
 </div>
   )
 }
