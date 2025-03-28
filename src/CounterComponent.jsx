@@ -8,9 +8,12 @@ let [counter , setCounter] = useState(0)
 
   const addValue = () => {
   // console.log("clicked", counter);
-   counter = counter + 1;
-  return setCounter(counter)
-  
+   setCounter(counter + 1)
+  //  setCounter(counter +2)
+  //  setCounter(counter +3)
+    // setCounter((preCounter) => preCounter = preCounter + 1)
+    // setCounter((preCounter) => preCounter = preCounter + 1)  // interview question //
+    // setCounter((preCounter) => preCounter = preCounter + 1)
   }
 
   const decValue = ()=>{
